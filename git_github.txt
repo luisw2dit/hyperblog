@@ -1,0 +1,194 @@
+git y github
+En este archivo se encuentran todas las anotaciones del curso sobre git y github
+Git funciona para muchos tipos de archivos , que tal funciona git con archivoc binarios
+Los puede agregar y versionar pero es mejor usar git con texto plano
+
+En un comit los mensajes del commit son
+Importantes y obligatories
+
+Los cambios a un archivo que están en staging están en
+Un área temporal en memoria antes de llegar al repositorio
+
+El head en una rama es
+El apuntador al estado actual del repositori basado en la rama en la que esoty trabajano
+
+Cuando debira hacer un merge
+Cuando queiro fusionar los cambios de una rama con otro
+
+Las loca
+s publicas son
+Fáciles de compartir y sus mensajes imposibles de descifrar
+
+Para transmitir cambios seguros entre ru repositorio local y github que se recomienda
+Usar llaves ssh
+
+Que crean los tags en git
+Versiones descargables y puntos únicos en una rma de un repositorio
+
+Un pull request es 
+Un vambio sugerido a un repo que el dueño del repositor  puede autorizar y hacer merge a la rama que elija
+
+El dueño de un repo al ver un pull requeste puede
+Editarlo aceptarlo darle merge comentarlo para pedir cambios
+
+Cuando hago un fork de un proyecto en github lo que logro es 
+Copiar un repositorio publico a mis repositorios en github con todas sus ramas e hisotiras anteriores
+
+Si en gitgnore agreso estos     
+Images jquesry. Js
+
+Cuando usas git stash los cambios que guardas temporalmente se guarda en 
+Memoria temporal volivendo al estado del ultimo commit
+
+
+
+
+Que puedo hacer con gitk
+Ver en una interfaz visual las ramas y el log de tu repositorio
+Es mejor aprender a manejar git con la terminal ……..
+Debemos aprender gitr con sus mocande de la ermian ……..realizar operaciones tan complejas.
+
+Como se llama github y gitlabo…….
+Github pull requeste y gitlab merge requeista
+
+Estas en la rama master y quieres mandar los últimos cambios que guardaste con git stash………
+Git stachs apply retomando los cambios
+
+Github page
+Permite publicar nuestro reposerio en inter 
+
+
+El jefe freddy despido a anita ……
+Crear un fork del proyeco ,,,,,proyecto original
+
+
+La termina idel para windosn 
+es gitbash
+
+
+que es un branch 
+un repositorio aparte del master donde puedes trabajar en paraleo
+
+checkout
+ver archivos de mi proyecto como los deje en otras ramas
+
+Un repositorio remoto y un presoitoro local 
+tiene ramas similares dependiendo de cuales hayan enviado entre uno y otro
+
+
+Cuando hay un conflicto entre archivos lo mejor es 
+Analizar los conflictos tal como los reporte git y elegir los cambios finales lugo commit
+
+Se crean dos archivos cuando crear una llave publica y privada para ssh,cual es la extensión de la llave privada.
+Ninguna extensión
+
+En un repo publico en github que puede hacer los colaboradores
+Hacer cambios al repositorio hace push pull crear ramas etc
+
+Para que dos personas trabajen en paraleo sobre el mismo archivo ser recomienda
+Una rama independiente por cada persona y sus cabios que luego con verificación se hace merge a mastes.
+Git config – global….
+Git platzi
+
+
+
+Git hub es
+Git hub es sitio web que tiene por dentro u servidor de git donde cualquiera puede crear o clonar un repo y compartirlo
+Es una interfaz visual del repo
+Herramientas colaborativas mas importates
+La red social de los programadores
+Tus repos son el portafolio de proyectos como programados para que la gente vea lo que puedes hacer.
+NO sitio web de descargas de librerias
+NO Una red social de programadores
+NO Software de contrl de versiones
+
+Desafio 
+</div>
+<div id=”post”>
+<p> suscríbete y sale like</p>
+</div>
+NO Div id = footer
+NO Divd = “desafio”
+NO Memoria
+
+
+Con amed puedo Nadie se entera que la cague
+
+Añadir el cambio
+
+
+Agregamos 
+
+Git commit –ammend es remendar
+
+Sirve para que los cambios que hice los pegue al comité anterior y no crea uno nuevo
+
+NO Agregar un nuevo commit que repare el anterior quedando en la historia del rep
+NO Solucionar conflictos ante un mere que negero errores
+
+
+Puedo conectar mi repo local con mas de un repo remoto
+verdadero
+NOfalso   
+
+
+
+
+Para que serive git grep
+Sirve para buscar palabras dentro del repo de código a nivel código en los archivos
+Buscar en todo el proyecto los archivos en donde está la palabra
+Lugares donde esta la palabra escita o se usa
+Palabra buscada
+D NO EL COMANDO GIT GREP NO EXITE…….
+NO Para encotra la vecs que hemos usado…..
+C NO Para encontrar los mensajes de commit que incluyen una cierta palabrajefe
+
+
+
+
+Que guarda git
+Sistema control de versiones gran numero de archivos fuente
+Guardar cambios de forma incremental
+Almacenala información como un conjunto de archivos
+NOLos archivos completos por cada versión de un proyecto
+NO GIT NO GUARDA NADA….
+
+
+Puedo crear ramas en github que no tenga en mi repositorio local
+
+NO .. si cuando usas el cliente oficial nada mas
+No, todas las ramas de github llegan a tu repositorio local al clonar el repo
+NO LAS RAMAS SOLO EXISTEN EN UN REPOSITIO……..
+
+Cual es la diferencia entre git rm 
+
+se puede usarpara eliminar archivos sueltos o un conjunto de ellos, la función principal de git rm es eliminar los archivos en seguimiento del índice de git. 
+
+Además git rm se puede usar para eliminar archivos tanto de índice del entorno de ensayo como del directorio de trabajo. 
+
+git reset head resetea toda la historia con commit .. todo y me ubica en la posición antes del erro
+
+NO git reset head borra el ultimo commit git rm también pero guarda los cambios en stating
+NO Git borra todos los commites …….pero guarda los últimos cambios en su staging
+NO Git reset head saca los archivos del repo y git m saca losa rhvios de stating
+B no 
+C no
+A no 
+
+
+
+CHERRY PICK
+Cuando quiero los cambios de un commit pasado sin dañar la historia de la rama.
+git cherry-pick puede ser útil para deshacer cambios. Por ejemplo, supongamos que una confirmación se aplica accidentalmente en la rama equivocada. Puedes cambiar a la rama correcta y ejecutar cherry-pick en la confirmación para aplicarla a donde debería estar.
+NO AL MOMENTO DE FUSIONAR UN PUNTO DE UNA RAMA DISTINTA AL ESTADO ACUTAL …..
+
+
+
+Por defecto git hub usa la rama main como la principal podemos cambiar la rama principal
+No falso
+
+
+--------------------------------------------------------------------
+
+
+
