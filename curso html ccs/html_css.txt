@@ -1,0 +1,192 @@
+FRONT-END: esto es lo que debe trabajar un front-end video 2
+FRONT-END : es el desarrollador que maneja las cosas del lado del cliente
+CLIENTE: son navegadores  animación, estilos
+ESTANDARES que entiende el navegador HTML CSS JS
+FRAMEWORKS DE CSS: son fragmentos de css ya construidos para agregar a los proyectos para trabajar mas rapidos.
+FRAMEWORKS Y LIBRERIAS DE JS: 
+PREPOCESADORES DE CSS:  es manejar CSS con superpoderes  less stylus sass
+COMPILADOR / EMPAQUETADOR  JS
+BABEL: utilizar las ultimas versiones de js 
+WEBPACK: ayuda a trabajar un solo empaquetado para subir a producción
+VIDEO 3 QUE ES UN BACK-END
+El back-end es el desarrollador que maneja las cosas del lado del servidor, maneja toda la lógica,
+El navegador hace una petición, el back-en busca la pagina en el servidor y la envía al navegador.
+El back-end maneja lenguajes de programación python, java script. Node para servidor. Php. Go, rubi, punto net.
+FRAMEWORKS: ayuda a trabajar mas rápido ciertas cosas especificas: Django para paython,  laravel para php, rail para rubi, express para java scrip, spring para java. Los frameworks ayuda a construir cosas mas obustas y mas rapidas.
+Infraestructura: debots son personas que se especializan en trabajar google cloud, digital ocean, aws heroku, es donde se va a subir la aplicación. Aplicaciones sencillas llamadas estáticas o mas complejas llamadas dinámicas.
+BASE DE DATOS: el back-end trabaja con la base de datos, la genera y la conceta con la arquitectura
+Mongo de db no relación , mysql base de datos relacional.
+
+FULL STACK video 4: Es una persona que entiende de inicio a fin un proyecto de tecnologías de back-en y front-end. 
+Como se implementa la base de datos, sabe y escoge las librerías, logra entender bien las herramientas y los códigos. Pero debe escoger el área de especialización.
+
+
+VIDEO 5 PAGINAS DINAMICAS Y ESTATICAS:
+Paginas estáticas son las que páginas que tiene pura información texto imagines y esta información no va a cambiar, ejemplo blog. No tiene ningún cambio. Se pueden volver los nuevos blogs, son llamadas páginas informativas o landing pages. Las empresas muestran sus productos y el equipo por internet, esta información no cambia.  Gran parte de la información se queda estática por mucho tiempo. Estas paginas no están conectadas al servidor o base de datos, no son interactivas. 
+Paginas dinámicas, o web app, son aplicaciones y no páginas, están conectadas a la base de datos, el usurario nosotros por medio del navegador si interactuar con la paginas y se tiene que guardar la información. Login para tener una cuenta y guardar la información, interacturar con productos.
+Web apps, twiter es dinámica por que la información se actualiza a segundo, nuevo contenido. Se interactua.  Se guarda la información con la base de datos. Ejemplo platzi.
+
+Video 6 HTML ES HYPERTEXT MARKUP LANGUAGE: son hypervinculos o etiquetas
+Anatomía de una pagina web: 
+ 
+Main es la estructura principal donde está la información principal de la página
+Footer de face es un scroll infinito y nunca llega al final o al footer
+
+Video 7: índex 
+El servidor siempre busca primero la página index.html es la página de inicio.
+
+<!DOCTYPE html> 
+sirve para decirle al navegador que el código que está leyendo es html5.
+ Todo lo que viene acá es html5.
+
+<html> es un contenedor 
+Contenedor principal padre lleva todas la etiquetas que tengamos en nuestro proyecto
+Atributo especial llamado lang=”es”  sirve para decirle al navegador el lenguaje del proyecto 
+
+<head>  metas y atributos:
+
+Va todo lo importante para que el navegador para que carge el proyecto y no es visual al usuario.
+Librerías externes, fuentes css  “el cerebro, terminales nerviosas”
+
+Etiquetas mata se  cierra sola, sirve para dar información al navegador para que sepa como tratar el proyecto. <meta>
+
+Atributo charset= “UTF-8” sirve para que el navegador interprete los caracteres especiales ejem ñ
+<meta chraset=”UFT-8”>
+
+<meta name=”description” content= “Esta pagina te buscara las fotos de gasto”/>  
+Sirve para que la descripción de la pagina se pueda buscar cuando la gente busque en el navegador, la descripción en azul.
+
+
+
+<meta name=”robots” content=”index,follow”/>
+Ayuda a posicionar las paginas en las búsqueda y le damos permiso a los robot de los buscadores ue utilice nuestras palabras y ellos los encuentren.
+
+
+<title> Es mi pagina </title>
+Sirve para ver el titulo en la pestaña de la pagina web
+
+todos los productos web deben ser Responsiv 
+<meta name=”viewport” content=”width=device-width, inictial-scale=1.0”>
+viewport  Es el tamaño de la pantalla de izquierda a derecha. Sirve para que la letra se ajuste al dispositivo
+
+<link>  sirve para ingresar todos los códigos de css,  
+<link real= “stylesheet” sirve para decirle que el documento a cargar es una hoja de estilos
+Href= “style.css sirve para decirle que endonde se encuentra el documento de estilos
+
+
+ 
+
+
+
+
+
+
+
+
+
+Video 8: <body>
+Maquetación o layaudo 
+Semántica de html 
+Texto imágenes videos  todo lo ve el usuario manos brazo piernas
+
+Etiquetas contenedoras:
+llevan mas etiquetas adentro
+Ayuda a generar la estructura de la pagina.
+
+Encabezado <header>
+
+Barra navegación <nav>
+
+<Main/> le dice al navegador que después del encabezado y debajo de la barra de navegación va la parte principal de  ojo debe ir fuera del header y debajo del nav
+
+<section/> Dentro del main existen secciones 
+<article/> dentro de section existe articulos
+
+Crear listas
+<ul/> significa lista desordenada sin números con puntos o pullers
+	<li>soy una manzana<li/>
+
+<ol/>: significa lista ordenada numerados 
+
+
+
+
+<footer/> pie de pagina 
+ 
+<div/> es una etiqueta comodin
+
+
+Etiquetas de contenido: etiquetas llevan texto, imágenes, videos.
+
+Texto <li/>
+Párrafo <p/>
+Encabezado <h1/> hasta el <h6/> entre más grande el h más pequeña la fuente
+
+Hipervinculos <a href=”soy un link#”> con numeral me envía a otra
+
+
+Video 9: Desafío crear lista de compra de súper y llevarme a una receta 
+Video 10: Anatomía de la etiquetas
+
+ 
+Video 11. Etiquetas multimedia
+
+Tipos de imágenes y sus formatos:
+
+LOSSLES / Sin pérdida: el formato original de las imágenes no permite que se pierda la calidad de la imagen y queda grande.  
+
+GIF: ocupa hasta 256 colores y no se pueden comprimir
+Graphics interchange format, formato intercambio de graficos
+Ayuda para animar ciertas cosas.
+
+PNG 8: uso de colores hasta 256 se usa para logotipos e iconos, 
+Utiliza transparente en el cuadro y permite ver los círculos del logo
+
+PNG 24: uso de colores ilimitado desde 256 formato mas pesado, se puede manipula el fondo
+
+SVG –VECTOR: Scalable Vector Graphics: formato ligero para iconos o logotipos hechos para escalar, 
+Los logos se utilizan para pantallas de retina que se pueden multiplicar los pixeles, la imagen va a crecer, sin perder la calidad, al agrandar la imagen nunca se pexila el icono. 
+
+ ----------------------------------------------------------------------------------------------------------------------------
+
+
+LOSSY / Con pérdida: pierde un poco de calidad, reduce el tamaño del archivo, carga más rápido en el navegador.
+
+JPG / JPEG  photographic Experts Group:  formato de fotografía, no para logos ni iconos, si para fotografía, imágenes enormes, se puede comprimir, peso poco para la web.
+ 
+
+
+Video 12: Optimizando imágenes:
+
+Tamaño promedio de una imagen 70 kilo bytes o kb no puede pasar de 1mg
+
+Opciones para mejorar el tamaño de las imágenes con tiny PCG comprime la imagen
+Retirar metadatos de imágenes con verexif, el celular agrega meta datos como la hora lugar y mas información cuando se toma la foto con el celular. Sirve para limpiar la foto.
+
+Video 13: etiqueta img y figure
+
+Estructura básica de código shorcode ¡tabulador
+Pexeles es la pagina para bajar fotos  y se baja a una carpeta 
+
+Etiqueta de section y luego etiqueta img
+Img  
+atributo src donde se encuentra la imagen  con ./lkjdfklsdjdfskljsdf 
+Atributo slt es la descripción de la imagen
+Nota: las carpetas no pueden llevar espacios
+
+Video 14: etiqueta figure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
