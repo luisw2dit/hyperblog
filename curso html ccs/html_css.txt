@@ -176,6 +176,148 @@ Nota: las carpetas no pueden llevar espacios
 
 Video 14: etiqueta figure
 
+Figure es una etiqueta contenedora y sirve para contener una o varias imágenes, y sirve para darle un tamaño especifico y/o poderla posicionar en la forma o el lugar específico dentro del proyecto, también le informa al navegador que es una etiqueta contenedora y el contenido siempre será una o varias imagen.
+
+ 
+
+Figcaption sirve para darle una descripción la imagen en la parte inferior o pie, por ejemplo el nombre del autor.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Video 15: Etiqueta video
+La etiqueta video nos permite rende rizar los videos en la página.
+Se debe crear una carpeta para videos, y guardar allí todos los videos.
+Etiqueta de section es una etiqueta contenedora, y allí debe alojar a la etiqueta video 
+
+Etiqueta video es una etiqueta para videos y sirve para rende rizar (convertir la info) los videos.
+La etiqueta video cuenta con 2 atributos y una etiqueta más llamada source:
+	
+Atributo 1: controls sirve para incluir los botones para manipular el video, es una palabra.
+Atributo 2: preload=”auto” sirve para que el video se cargue rápido cuando la página se empieza a crear en el navegador, es para que el usuario no espere, y NO permite que el video reproduzca solo.
+
+La etiqueta source sirve para reproducir los diferentes formatos de video, se debe ingresar los tipos formatos de videos que se desean reproducir en la página.
+La etiqueta source cuenta con 2 atributos
+
+Atributo 1: src=”./ sirve para decirle donde se encuentra el video, es la ruta” 
+Atributo 2: #t=10,60 Sirve para que se reproduzca el video en una parte del tiempo         específico ejem inicia en el segundo 10 y finaliza en el minuto 60.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Video 16: Formularios
+Sirven para interactuar con el usuario, y obtener información y/o nos solicitan información.
+
+Etiqueta form es semántica, le dice al navegador que es una etiqueta de formulario, y el usuario va a dejar información que nosotros debemos llevar al servidor; la etiqueta form cuenta con 1 atributo.
+
+	Atributo 1: action=”es la url para enviar la información a la base de datos o inpont”
+ ---------------------------------------------------------------------
+Etiqueta label sirve para                                  y en ella se guarda la etiqueta input, y la etiqueta span.
+
+Atributo 1: for=”corresponde al título del label”
+---------------------------------------------------------------------------
+Etiqueta input sirve para recolectar información, es la caja donde el usuario digita la información solicitada, y cuenta con 3 atributos type (text - date - time) placeholder y id.  
+
+Atributo 1: type
+type ”text” esto significa tipo = a texto, recolecta información de texto.
+	type ”date” esto significa tipo fecha, y recolecta información en formato fecha.
+	type ”time” esto significa tipo = hora y recolecta información en formato hora.
+
+Atributo 2: placeholder: sirve para poner un texto de ejemplo en la caja de digitación.
+
+Atributo 3: id=”debe ser el mismo digitado en el for”
+
+-----------------------------------------------------------------------------------------
+
+Etiqueta span sirve para escribir la información que queremos que el usuario digite, se encuentra al frente de la caja de digitación o input
+
+ 
+Video 17: Formulario tipo calendario (Calendar)
+
+El formulario tipo calendario nos permite solicitarle al usuario información con formato de fecha.
+El formulario calendar se divide en 2 tipos.
+
+Calendar larga
+
+ 
+ 
+
+Input type submit sirve para enviar la información a la base de datos.
+
+El name nos indica el valor que el usuario nos está digitando, y lo envía a la base de datos.
+El name es igual al for
+El id es igual for
+
+Tipos de input: https://developer.mozilla.org/es/docs/Web/HTML/Element/input
+
+Nota: para comentar se usa al inicial <!--    y para cerrar --  >
+
+ Calendar corta 
+
+ 
+Video 18: Formularios autocompletar y validación (required)
+
+El auto completar es un atributo del input, y se utiliza cada uno específico, ejem: 
+Para nombre autocomplete =”name”
+Para correo autocomplete =”email”
+Para país autocomplete =”country”
+Para código postal autocomplete =”postal-code”
+
+El required es un atributo de input y sirve para solicitar la validación al usuario, eso quiere decir que le hace falta digitar información y sale un mensaje en el campo sin llenar.
+
+ 
+ 
+
+Video 18: Formularios etiqueta select (despliega una lista)
+Dentro de la caja de texto, inicio con una palabra y me despliega la palabra, y el usuario no debe usar el scroll.
+Con select se crean pocas opciones , Con detalist en caso que sean muchas opciones
+
+Etiqueta  …… input ……… Atributo ……. list
+Etiqueta …… datalist …….Atributo …….. id
+Etiqueta ……. Option …… Atributo ……… value
+ 
+Video 19: Etiqueta button = botones
+
+Hay dos tipos de botones
+1.	Input type submite sirve para utilizar en formularios
+2.	Button sirve para ser personalizado en cualquier parte del proyecto No correspondan a enviar en un formulario.
+3.	
+ 
+
+
+Video 21: CSS
+Casquet Station Ship
+
+Es un documento que aplica todo los estilos en forma de cascada, sirve para estilizar el proyecto con colores, utilizando círculos etc.
+Css es la manera de embellecer un proyecto con ayuda de colores y adornos.
+
+ 
+Video 22:
+
 
 
 
