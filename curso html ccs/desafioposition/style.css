@@ -1,0 +1,13 @@
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+
+    .contenedor {   border: 3px blue dotted;
+                    display: inline-block; }
+
+    .caja { display: inline-block;
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+         }

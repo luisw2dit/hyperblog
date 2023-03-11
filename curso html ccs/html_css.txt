@@ -317,7 +317,289 @@ Css es la manera de embellecer un proyecto con ayuda de colores y adornos.
 
  
 Video 22:
+Video 22: Inicio con CSS 
 
+
+Se debe crear un archivo único para style.css 
+Todas las líneas de CSS se deben trabajar en el <head>
+/*.class.*/  sirve para comentar en CSS
+Vincular al índex los códigos del archivo style.css
+
+Forma 1. Es la mejor práctica
+ 
+
+Forma 2 no es la mejor manera, solo sirve para cuando hay poco código
+ 
+
+Forma 3: No es la mejor manera en el body, se llama estilo embebido o inyectado en forma de atributo (no es la mejor practica) es mejor evitarla. Solo sirve para ciertos elementos, esto puede reescribir los archivos de css.
+ 
+
+Para llamar las etiquetas para agregar los estilos, hay 3 formas
+
+Opción 1: Por el elemento o la etiqueta a la que quiero agregar el estilo ejem: <p> P{}
+   
+
+Opción 2: Por la clase, sirve para llegar a la etiqueta que necesitó, se le agrega: 
+Atributo class 
+Nombre de la class: ejem párrafo
+Texto de la class: “Soy un texto”
+
+Luego: se llama desde style con un punto y el nombre de la clase.
+     
+
+Opción 3: Por id
+
+   
+
+Video 23: Classes Pseudo clases    
+ 
+
+Nota: por cada pantalla se debe crear un archivo de css por cada pantalla y lleva el nombre de esa pantalla.
+
+Las Clases y Pseudo clases se utilizan en la barras de navegación.
+Las class (BEM sirve para ayudar a nombrar las class) que es una class
+ 
+Ul es el contenedor o una caja donde esta la barra de navegacion  y se va a llamar Class = “main-nav” que quiere decir main para la barra de navegacion.
+
+padding 0% sirve para agregarle o quitarle un espacio interno a la pagina 
+padding 5px sirve para agregarle o quitarle un espacio entre palabras  
+background-color sirve para agregar un color al fondo
+
+ …….. CONTENEDRO ……………………ESTILO ………………………RESULTADO….
+       
+
+Código base para una barra de navegación
+ 
+
+Pseudo class: son efectos son estados
+
+Hover, sirve para cuando el curso pasa por la palabra cambie el color a azul
+Active: sirve para cuando se da clic está activo
+
+Pseudo elemento:
+
+Se llama con 4 puntos :: y el nombre del Pseudo elemento
+Content agregue una línea al lado derecho y se puede con la after content
+
+ 
+
+
+Video 24: Anatomía de una regla de CSS    
+
+ 
+ 
+
+
+
+
+
+Video 25: Modelo de cajas    
+
+Cajas contenedores contenido
+Estilos para las cajas: 
+                                  Margin, Border, Padding (relleno), conent
+
+ 
+ 
+
+
+Width: que tan largo es el contendor ejemp 100%
+Height que tan alto será el contenedor  ejmp 500px
+Border: 10 px solido color gris
+Padding, es un espacio relleno de 20px de arriba hacia abajo y 35 px de derecha a izquierda para la caja.
+Box sizing  Border-box  sirve para quitar el scrol horizontal
+ 
+
+
+Video 26: Herencia
+Es el código css que se pasa de un padre a un hijo.
+
+Video 27: orden de declaración de CSS 
+
+Video 28: demo especificidad y orden en selectores 
+
+En Estilos el orden de importancia es clave para la lectura del navegador, se debe usar de mas importante a menos importantes de allí el nombre de cascada.
+
+1 importar mala practica 
+2 style embebidos inyectados mala practica
+3 id no son buenas prácticas para los estilos, si es buena práctica para usar css y especificidad
+4 clases utilizar buena práctica para style
+5 etiquetas es una buena práctica para usar en style
+
+
+Clase 
+Fuente font familia
+Box sizing tener problemas 
+
+Stylo barra navegación
+Margin tops 10 pixeles
+Lista-style type none queitar 
+Paddin 
+
+Stylos li
+Display inline block  horizonta
+
+Agregar estylo solo a un boton
+Generare clase ------ a una etiqueta
+
+ 
+
+ 
+
+
+
+Video 30 Los combinadores 
+Nos permite combinar múltiples selectores y crear una mayor especificidad.
+Son cuatro: 
+ 
+
+1.	Video 30: HERMANO ADYACENTE O CERCANO:
+         
+
+
+2  video 31 : HERMANO GENERAL: h2 es hermano general
+
+      
+
+
+3 video 32: HIJO 
+      
+
+3 video 32: DESCENDIENTE:
+
+        
+Ojo que las parrafo esten el el div
+
+
+
+
+
+Video 33 MEDIDAS
+
+Absolutas son pixeles px, tamaño fuente alto largo, la medida no cambia ni por la medida de la pantalla.
+
+Relativas: son % entre otras y si cambian ejem el 30% de la pantalla del celular es diferente el 30% pantalla del pc. El tamaño varía dependiendo del dispositivo.
+
+ 
+
+ 
+
+Ejemplo
+ 
+
+ 
+El main no ocupa todo el tamaño
+Over foll se genera scroll
+ 
+
+El main ocupa el 100%, no importa el tamaño de la pantalla
+
+Video 34 MEDIDAS RELATIVA EM no es la mejor medida
+
+Em es un acrónimo de elemento, y toma el tamaño de la fuente del padre directo, en este caso es main.  
+
+Main tiene 16 pixeles del tamaño de fuente
+
+main = 16 pixeles * 1.5em = 24 pixeles   1 em = 16 pixeles 
+ 
+
+ 
+
+Video 35 MEDIDAS RELATIVA REM  
+REM siempre tiene la referencia del tamaño de la fuente de la etiqueta rut o htlm que corresponde siembre a 16 px.
+Siempre un rem es igual a 16px
+Rem siempre es la medida estándar para el tamaño de fuente. 
+Siempre se debe usar pixeles para tamaños de fuentes y tamaños relativos y contenedores.
+Es una buena práctica.
+
+1 rem = 10 px        1.6 rem = 16 px  	2 rem = 20 px       3 rem = 30 px 
+
+Siempre se debe tener esta estructura en CSS
+ 
+
+
+Video 36 
+
+ 
+
+Main = es un contenedor
+
+Width + Heigh  + Background color  = significa que el contenedor este ocupando el 100% de color sin importar el tamaño de la pantalla.  
+
+Nota: si se pasa al 50% el color ocupa el 50% de la pantalla
+
+Section = es un contenedor
+Width = es el ancho de la pantalla y ocupará el 80% 
+Min Width =
+Max-width = limita el crecimiento del contenedor solo llegara a 500px
+
+
+Height = Alturas de 500 px
+Min Width =
+Max-width = limita el crecimiento del contenedor solo llegara a 500px
+
+Background-color rojo
+Margin = centra el contenedor
+
+problema:  
+over flor. Tenemos mas texto contenido que el espacio del contenedor padre
+Solución:  
+
+
+
+
+
+
+
+Video 37 POSITION DE ELEMENTOS EN CSS
+Sirve para posicionar las cajas y son 5:Static ,absolute, relative, fixed, sticky
+Todas las etiquetas de html vienen con static, eso quiere decir que se quedan donde yo las pongo.
+ 
+Por difull
+    
+
+La posición static no mueve ningún elemento
+ 
+
+Para las demás posiciones podemor mover los contenedores con botton, top, lef, righ
+
+La posición absolute sobrepone el contenedor 2, pierde la posición el contenedor 3, y lo envía debajo del contenedor 2
+
+ 
+
+
+
+
+
+Posicion relative no respeta la forma pero respeta la posicion 
+
+ 
+
+
+
+Desafío
+ 
+
+Video 39: Display:
+
+ 
+
+Display block: 
+Significa que va a utilizar el 100% del espacio que tiene la caja adelante sin importar que el contenido tiene o no espacio.
+Se puede agregar margin y Padding  
+margin superior 10
+Margin inferior 10
+Margin izquierdo 10
+Margin derecho 10
+Display inline: va a utilizar el espacio que tiene su contenido y si queda espacio adelante escribe la otra etiqueta.
+NOTA: no se puede utilizar el margin y Padding en la superior o inferior
+No crece no se puede usar whid y haieg
+
+Display inline block: Es lo mjer hacen que ocupe el 100% del contender y permite que los otros hermanos pueden esar al frente de forma horizontal
+
+Permite margin y pady whi yghit
+
+Video 39  desafio LAYOUT
 
 
 
