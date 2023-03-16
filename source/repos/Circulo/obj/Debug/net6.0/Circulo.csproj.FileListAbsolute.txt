@@ -1,0 +1,15 @@
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.csproj.AssemblyReference.cache
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.AssemblyInfoInputs.cache
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.AssemblyInfo.cs
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Circulo\bin\Debug\net6.0\Circulo.exe
+C:\Users\Home\source\repos\Circulo\bin\Debug\net6.0\Circulo.deps.json
+C:\Users\Home\source\repos\Circulo\bin\Debug\net6.0\Circulo.runtimeconfig.json
+C:\Users\Home\source\repos\Circulo\bin\Debug\net6.0\Circulo.dll
+C:\Users\Home\source\repos\Circulo\bin\Debug\net6.0\Circulo.pdb
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.dll
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\refint\Circulo.dll
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.pdb
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\Circulo.genruntimeconfig.cache
+C:\Users\Home\source\repos\Circulo\obj\Debug\net6.0\ref\Circulo.dll
