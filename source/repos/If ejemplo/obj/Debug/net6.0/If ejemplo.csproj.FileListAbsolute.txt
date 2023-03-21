@@ -1,0 +1,15 @@
+C:\Users\Home\proyecto1\source\repos\If ejemplo\bin\Debug\net6.0\If ejemplo.exe
+C:\Users\Home\proyecto1\source\repos\If ejemplo\bin\Debug\net6.0\If ejemplo.deps.json
+C:\Users\Home\proyecto1\source\repos\If ejemplo\bin\Debug\net6.0\If ejemplo.runtimeconfig.json
+C:\Users\Home\proyecto1\source\repos\If ejemplo\bin\Debug\net6.0\If ejemplo.dll
+C:\Users\Home\proyecto1\source\repos\If ejemplo\bin\Debug\net6.0\If ejemplo.pdb
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.csproj.AssemblyReference.cache
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.AssemblyInfoInputs.cache
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.AssemblyInfo.cs
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.dll
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\refint\If ejemplo.dll
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.pdb
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\If ejemplo.genruntimeconfig.cache
+C:\Users\Home\proyecto1\source\repos\If ejemplo\obj\Debug\net6.0\ref\If ejemplo.dll
