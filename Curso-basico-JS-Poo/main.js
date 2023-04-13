@@ -36,11 +36,24 @@ const juanita = new Student (
 
 );
 
-
-
-
-
-
 // Hacer que Natalia apruebe otro curso 
 
 natalia.cursosAprobados.push("Curso de Responsive Design");
+
+// CREAR CLASE
+
+class Student2 { 
+    constructor (name, age, cursosAprobados)
+    {this.name = name
+        this.age = age;
+        this.cursosAprobados = cursosAprobados;}
+
+aprobarCurso(nuevoCursito)
+{this.cursosAprobados.push(nuevoCursito);}
+
+
+}
+
+
+
+
